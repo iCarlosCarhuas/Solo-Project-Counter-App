@@ -1,0 +1,149 @@
+@import url('https://fonts.cdnfonts.com/css/cursed-timer-ulil');
+
+body {
+    margin: 0;
+}
+
+.container {
+    order: 1;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-height: auto;
+    max-width: auto;    
+    background-color: #1B244A;
+    padding-bottom: 2rem;   
+}
+
+.addfoulbtn {
+    font-size: 15px;
+    margin-left: 26px;
+    border: 2px solid;
+    border-radius: 5px;  
+    padding-top: 4.5px;
+    padding-bottom: 2.5px;
+    padding-left: 4.5px;
+    padding-right: 5px;
+    border-radius: 5px;
+    border-color: #9AABD8;
+    background-color: rgba(154, 171, 216, 0);
+    font-family: 'Cursed Timer ULiL', sans-serif;
+}
+
+h3{
+    text-align: center;
+    font-family: Verdana;
+    font-size: 40px;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 21px;
+}
+
+h4{
+    text-align: center;
+    font-family: Verdana;
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 11.5px;
+
+    
+}
+
+#guest-fouls , #home-fouls {
+    color: #F94F6D;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-weight: 200;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 11.5px;
+    margin-bottom: 13px;
+    padding-top: 5px;    
+}
+
+.foul-container {
+    background-color: black;
+    margin: 0px 20px 0px 20px
+}
+
+
+.count-container{
+    background-color: black;
+    border-radius: 5px;
+    
+}
+
+#home-counter, #guest-counter {
+    color: #F94F6D;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-weight: 400;
+    font-size: 90px;
+    text-align: center;
+    margin-top: 21px;
+    margin-bottom: 26px;
+    padding-top: 10px;    
+}
+
+a{
+    color: #9AABD8;
+}
+
+.pointbtn {
+    border: 2px solid;
+    border-radius: 5px;  
+    padding-top: 9px;
+    padding-bottom: 10px;
+    padding-left: 9px;
+    padding-right: 10px;
+    border-radius: 5px;
+    border-color: #9AABD8;
+    background-color: rgba(154, 171, 216, 0);
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    
+}
+
+#timer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex: 100%;
+    order: 3;
+    text-align: center;
+    margin: 20px 20px 20px 20px;
+}
+
+.timer-container {
+    background-color: black;
+    margin-left: 10px;
+}
+
+.static-timer {
+    display: inline-flex;
+    color: #F94F6D;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-weight: 200;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 11.5px;
+    margin-bottom: 13px;
+    padding-top: 5px;    
+}
+
+#timer-count {
+    display: inline-flex;
+    color: #F94F6D;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-weight: 200;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 11.5px;
+    margin-bottom: 13px;
+    padding-top: 5px;   
+}
+
+#new-game {
+    flex: 100%;
+    text-align: center;
+    margin-top: 0.5em;
+    order: 4;
+}

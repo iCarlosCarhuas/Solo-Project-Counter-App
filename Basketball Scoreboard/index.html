@@ -1,0 +1,54 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div id="home-container">
+                <h3>HOME</h3>
+                <div class="count-container">
+                    <p id="home-counter">0</p>
+                </div>
+                <button class="pointbtn"  onclick="add1Home()"><a>+1</a></button>
+                <button class="pointbtn" onclick="add2Home()"><a>+2</a></button>
+                <button class="pointbtn"  onclick="add3Home()"><a>+3</a></button>
+                
+                <h4>Fouls</h4>
+                <div class="foul-container">
+                    <p id="home-fouls">0</p>
+                </div>
+                <button class="addfoulbtn" onclick="add1HomeFoul()"><a>Add Foul</a></button>
+            </div>
+            <div id="guest-container">
+                <h3>GUEST</h3>
+                <div class="count-container">
+                    <p id="guest-counter">0</p>
+                </div>
+                    <button class="pointbtn" onclick="add1Guest()"><a>+1</a></button>
+                    <button class="pointbtn" onclick="add2Guest()"><a>+2</a></button>
+                    <button class="pointbtn" onclick="add3Guest()"><a>+3</a></button>
+                
+                    <h4>Fouls</h4>
+                <div class="foul-container">
+                    <p id="guest-fouls">0</p>
+                </div>
+                    <button class="addfoulbtn" onclick="add1GuestFoul()"> <a>Add Foul</a></button>
+            </div>
+            
+            <div id="timer">
+                <h4>Timer:</h4>
+                    <div class="timer-container">
+                        <p class="static-timer">00:</p><p id="timer-count"></p>
+                    </div>
+                        <button class="pointbtn" onclick="resetTimer()"><a>Reset</a></button>
+            </div>       
+            
+            <div id="new-game">
+                <button class="pointbtn" onclick="reset()"> 
+                    <a>New Game</a>
+                </button>
+            </div> 
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
